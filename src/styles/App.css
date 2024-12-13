@@ -1,0 +1,88 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.redFont{
+  color: #ff5555;
+}
+.allPosts{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.postBlock{
+  padding: 15px;
+  background-color: #f8f8f2;
+  width: 300px;
+  transition: 0.3s background-color, 0.3s box-shadow, 0.3s transform;
+}
+.postBlock:hover{
+  transition: 0.2s background-color, 0.2s box-shadow, 0.3s transform;
+  transform: scale(1.1);
+  border: 1px solid #c1cbe9;
+  box-shadow: 0px 0px 10px -3px #ebf0fda9;
+}
+.postBlock .content{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.postBlock .date{
+  color: #71727c;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.postBlock .title{
+  margin-top: 5px;
+  color: #282931;
+  font-size: 30px;
+  text-align: start;
+}
+.postBlock .readMore{
+  color: #44475a;
+  justify-self: end;
+  font-size: 18px;
+}
+.accountBTNS{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 18px;
+}
+.buttonsA{
+  display: flex;
+  flex-direction: column;
+}
+.buttonsA div{
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+}
+
+.color1 {
+  background-color: rgb(255, 220, 220); /* Lighter red-pink */
+}
+.color2 {
+  background-color: rgb(220, 225, 255); /* Lighter blue */
+}
+.color3 {
+  background-color: rgb(230, 255, 220); /* Lighter green */
+}
+.color4 {
+  background-color: rgb(220, 255, 255); /* Lighter cyan */
+}
+.color5 {
+  background-color: rgb(255, 240, 210); /* Lighter orange */
+}
+.color6 {
+  background-color: rgb(255, 255, 230); /* Lighter yellow */
+}
+.color7 {
+  background-color: rgb(210, 210, 220); /* Lighter grayish purple */
+}
+.color8{
+  background-color: #e4e4da;
+}

@@ -1,0 +1,27 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+input{
+    width: 98.5%;
+}
+.inputs{
+    font-size: 38px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.inputsV{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
