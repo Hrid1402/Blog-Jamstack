@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -35,4 +36,45 @@ input{
   font-size: 25px;
   height: 35px;
   width: 95.3%;
+=======
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.redFont{
+  color: #fd9494;
+}
+.login{
+  display: flex;
+  flex-direction: column;
+  background-color: #6272a4;
+  padding: 25px;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 15px;
+}
+.login form{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.inputs{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+input{
+  box-sizing: border-box;
+  border: 0;
+  outline: none;
+  background-color: #f8f8f2;
+  color: #44475a;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 25px;
+  height: 35px;
+  width:100%;
+>>>>>>> c83acae (fix: small css problems fixed)
 }

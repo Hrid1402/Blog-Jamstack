@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -36,4 +37,51 @@ input{
   font-size: 25px;
   height: 35px;
   width: 95.3%;
+=======
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.messageError{
+  text-align: center;
+  font-size: 18px;
+  color: #ffcfcf;
+}
+.login{
+  display: flex;
+  flex-direction: column;
+  background-color: #6272a4;
+  padding: 25px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 15px;
+  text-align: start;
+}
+.login h1{
+  text-align: center;
+}
+.login form{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.inputs{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+input{
+  border: 0;
+  outline: none;
+  background-color: #f8f8f2;
+  color: #44475a;
+  border-radius: 5px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  font-size: 25px;
+  height: 35px;
+  width: 100%;
+>>>>>>> c83acae (fix: small css problems fixed)
 }
